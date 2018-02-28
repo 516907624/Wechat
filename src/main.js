@@ -5,7 +5,7 @@ import App from './App'
 import router from './router'
 import VueWebsocket from "vue-websocket";
 Vue.config.productionTip = false
-Vue.use(VueWebsocket, "ws://127.0.0.1:3000");
+Vue.use(VueWebsocket, "http://106.15.90.93:3000/");
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
